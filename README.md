@@ -74,14 +74,9 @@ The `generatePlaceholder` function accepts the following parameters:
 | **Background Color** | Set background color using hex codes or common color names  | `generatePlaceholder(..., '#FF8C00', ...)` <br> `generatePlaceholder(..., 'lightblue', ...)` |
 | **Text Overlay** | Optionally add text to the image | `generatePlaceholder(..., '#000', 'white', 'Sample Text')` |
 | **Text Color** | Customize text color with hex codes or color names | `generatePlaceholder(..., '#fff', 'red', ...)` |
-| **Output Format**  | Get image as a data URI (for direct embedding) or save as a file (.png, etc.) | See "Usage" and "Advanced Usage" sections in README |
-| **Customization (Future)** | Placeholder for planned features like gradients, shapes, and advanced text options | - |
+| **Output Format**  | Get image as a data URI (for direct embedding) or save as a file (.png, etc.) | See "Usage" sections in README |
 
-**Additional Notes to Consider:**
 
-* **Font Control:** If you implement more font options, you might add a 'Font Family' column.
-* **Parameters Table:** Create a separate table listing all `generatePlaceholder` parameters, their types (e.g., width: number), and whether they are required or optional. 
-* **Links:** Link to the appropriate sections of your README for in-depth instructions.
 
 **TODO Moved To Github Issues**
 
