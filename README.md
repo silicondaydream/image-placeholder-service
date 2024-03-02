@@ -77,10 +77,6 @@ The `generatePlaceholder` function accepts the following parameters:
 | **Output Format**  | Get image as a data URI (for direct embedding) or save as a file (.png, etc.) | See "Usage" sections in README |
 
 
-
-**TODO Moved To Github Issues**
-
-
 **Contributing**
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
