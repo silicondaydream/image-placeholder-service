@@ -1,13 +1,13 @@
 {
-  "name": "image-placeholder-service",
+  "name": "tend-image-placeholder",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple npm package to generate placeholder images for web design and development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "ChrisAdams.io",
   "license": "ISC",
   "dependencies": {
     "jimp": "^0.22.12"
