@@ -14,7 +14,7 @@ A simple npm package to generate placeholder images for web design and developme
 **Installation**
 
 ```bash
-npm install tend
+npm install tend-image-placeholder
 ```
 
 **Usage**
@@ -75,6 +75,8 @@ The `generatePlaceholder` function accepts the following parameters:
 | **Text Overlay** | Optionally add text to the image | `generatePlaceholder(..., '#000', 'white', 'Sample Text')` |
 | **Text Color** | Customize text color with hex codes or color names | `generatePlaceholder(..., '#fff', 'red', ...)` |
 | **Output Format**  | Get image as a data URI (for direct embedding) or save as a file (.png, etc.) | See "Usage" sections in README |
+
+
 
 
 **Contributing**
