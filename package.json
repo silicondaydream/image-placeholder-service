@@ -1,6 +1,6 @@
 {
   "name": "tend-image-placeholder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple npm package to generate placeholder images for web design and development.",
   "main": "index.js",
   "scripts": {
