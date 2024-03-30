@@ -4,30 +4,33 @@
 
 A simple npm package to generate placeholder images for web design and development.
 
-**Features**
+### **Features**
 
 * Generate placeholder images of specified width, height, and background color.
 * Add optional text labels with customizable color and font size (basic support).
 * Returns placeholder images as data URIs for easy embedding into `img` tags.
 * Optionally save placeholder images as files.
 
-**Installation**
+### **Installation**
 
 ```bash
 npm install tend-image-placeholder
 ```
 
-**Use Cases**
+### **Use Cases**
 
 1. Prototyping and Wireframing
 
 **Speeding up design:** Placeholders let designers quickly outline the visual structure of web pages or apps without needing the final images. This focuses development on layout and functionality early on.
+
 **Content visualization:** Placeholders can represent different image types (e.g., product photos, user avatars), aiding the overall content flow even before assets are ready.
 
 2. Website and App Development
 
 **Improved perceived loading speed:** Instead of blank spaces where images will go, placeholders create a more fluid user experience as the rest of the content loads.
+
 **Layout preservation:** Placeholders ensure that the layout doesn't dramatically shift when images finally load, preventing content jumping which can be disruptive.
+
 **Handling missing or slow images:** If images fail to load, or are very slow, placeholders provide a fallback that isn't jarring for the user.
 
 3. Content Management Systems (CMS)
@@ -38,7 +41,7 @@ npm install tend-image-placeholder
 
 **Product visualization:** Before product photos are available, placeholders with standard dimensions prevent layout issues and give potential customers a better sense of an item's expected appearance.
 
-**Usage**
+### **Usage**
 
 ```javascript
 const tend = require('tend-image-placeholder');
@@ -51,7 +54,7 @@ tend.generatePlaceholder(300, 200, '#0099FF', 'white', 'Hello!')
   });
 ```
 
-**Advanced Usage (File Saving Example)**
+### **Advanced Usage (File Saving Example)**
 
 ```javascript
 // ... (add library for file system access - e.g., const fs = require('fs'))
@@ -65,7 +68,7 @@ tend.generatePlaceholder(500, 350, '#ccc')
 ```
 
 
-**Example Usage**
+### **Example Usage**
 
 ```javascript
 const placeholderService = require('image-placeholder-service');
@@ -78,7 +81,7 @@ placeholderService.generatePlaceholder(300, 200, '#0099FF', 'white', 'Hello!')
   });
 ```
 
-**Configuration**
+### **Configuration**
 
 The `generatePlaceholder` function accepts the following parameters:
 
@@ -98,7 +101,7 @@ The `generatePlaceholder` function accepts the following parameters:
 | **Output Format**  | Get image as a data URI (for direct embedding) or save as a file (.png, etc.) | See "Usage" sections in README |
 
 
-**Why use Tend?**
+### **Why use Tend?**
 
 While you could implement placeholders manually, npm packages offer:
 
@@ -106,10 +109,10 @@ Convenience: Ready-made solutions save you time on coding basic placeholder func
 Customization: Many packages allow you to tweak colors, text, and integration with image services.
 Advanced Features: Some packages provide more sophisticated placeholder types (like BlurHash) for better user experience.
 
-**Contributing**
+### **Contributing**
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-**License**
+### **License**
 
 MIT
