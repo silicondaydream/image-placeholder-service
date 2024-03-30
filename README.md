@@ -17,6 +17,27 @@ A simple npm package to generate placeholder images for web design and developme
 npm install tend-image-placeholder
 ```
 
+**Use Cases**
+
+1. Prototyping and Wireframing
+
+**Speeding up design:** Placeholders let designers quickly outline the visual structure of web pages or apps without needing the final images. This focuses development on layout and functionality early on.
+**Content visualization:** Placeholders can represent different image types (e.g., product photos, user avatars), aiding the overall content flow even before assets are ready.
+
+2. Website and App Development
+
+**Improved perceived loading speed:** Instead of blank spaces where images will go, placeholders create a more fluid user experience as the rest of the content loads.
+**Layout preservation:** Placeholders ensure that the layout doesn't dramatically shift when images finally load, preventing content jumping which can be disruptive.
+**Handling missing or slow images:** If images fail to load, or are very slow, placeholders provide a fallback that isn't jarring for the user.
+
+3. Content Management Systems (CMS)
+
+**Clear structure for editors:** Placeholders in a CMS give editors a defined space for images. This ensures proper image sizing and the overall visual consistency of a website.
+
+4. E-commerce
+
+**Product visualization:** Before product photos are available, placeholders with standard dimensions prevent layout issues and give potential customers a better sense of an item's expected appearance.
+
 **Usage**
 
 ```javascript
@@ -77,7 +98,13 @@ The `generatePlaceholder` function accepts the following parameters:
 | **Output Format**  | Get image as a data URI (for direct embedding) or save as a file (.png, etc.) | See "Usage" sections in README |
 
 
+**Why use Tend?**
 
+While you could implement placeholders manually, npm packages offer:
+
+Convenience: Ready-made solutions save you time on coding basic placeholder functionality
+Customization: Many packages allow you to tweak colors, text, and integration with image services.
+Advanced Features: Some packages provide more sophisticated placeholder types (like BlurHash) for better user experience.
 
 **Contributing**
 
