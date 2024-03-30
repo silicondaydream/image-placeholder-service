@@ -2,7 +2,7 @@
 
 # Tend Image Placeholder
 
-A simple npm package to generate placeholder images for web design and development.
+A lightweight pachage to generate placeholder images for web design and development.
 
 ## **Features**
 
@@ -10,12 +10,7 @@ A simple npm package to generate placeholder images for web design and developme
 * Add optional text labels with customizable color and font size (basic support).
 * Returns placeholder images as data URIs for easy embedding into `img` tags.
 * Optionally save placeholder images as files.
-
-## **Installation**
-
-```bash
-npm install tend-image-placeholder
-```
+  
 
 ## **Use Cases**
 
@@ -40,6 +35,12 @@ npm install tend-image-placeholder
 ### E-commerce
 
 **Product visualization:** Before product photos are available, placeholders with standard dimensions prevent layout issues and give potential customers a better sense of an item's expected appearance.
+
+## **Installation**
+
+```bash
+npm install tend-image-placeholder
+```
 
 ## **Usage**
 
@@ -103,11 +104,9 @@ The `generatePlaceholder` function accepts the following parameters:
 
 ## **Why use Tend?**
 
-While you could implement placeholders manually, npm packages offer:
+Convenience: Ready-made solution to save you time on coding basic placeholder functionality
 
-Convenience: Ready-made solutions save you time on coding basic placeholder functionality
-Customization: Many packages allow you to tweak colors, text, and integration with image services.
-Advanced Features: Some packages provide more sophisticated placeholder types (like BlurHash) for better user experience.
+Customization: Tweak colors, text, and integration with image services
 
 ## **Contributing**
 
