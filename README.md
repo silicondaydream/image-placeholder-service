@@ -2,7 +2,7 @@
 
 # Tend Image Placeholder
 
-A simple npm package to generate placeholder images for web design and development.
+A lightweight pachage to generate placeholder images for web design and development.
 
 ## **Features**
 
